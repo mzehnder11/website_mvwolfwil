@@ -11,7 +11,7 @@ body {
 header {
     font-family: 'Open Sans', Arial, sans-serif;
     background-color: #000000;
-    opacity: 47%;
+    opacity: 60%;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -33,4 +33,31 @@ nav a {
     text-decoration: none;
     opacity: 100% !important;
     font-weight: 250;
+}
+main {
+    height: fit-content;
+}
+.section {
+    padding: 0 11vw;
+}
+.section-hero {
+    height: calc(97vh - 70px);
+}
+.section-news {
+    padding-top: 10vh;
+    height: fit-content;
+    background-color: #ffffff;
+}
+.img-title {
+    height: 80px;
+}
+
+footer {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    height: 200px;
 }

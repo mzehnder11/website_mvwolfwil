@@ -37,11 +37,40 @@ nav a {
 main {
     height: fit-content;
 }
+button {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4pt;
+    padding: 10px 40px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+    transition: all 0.2s ease-in-out;
+}
 .section {
     padding: 0 11vw;
 }
 .section-hero {
     height: calc(97vh - 70px);
+    padding-top: 20vh;
+}
+.hero-content {
+    gap: 50px;
+}
+.hero-content img{
+    height: 70px;
+}
+.hero-content p {
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 250;
+    letter-spacing: 0.2pt;
+    width: 500px;
+    font-size: 1.15em;
 }
 .section-news {
     padding-top: 10vh;
@@ -62,6 +91,10 @@ footer {
 }
 footer img {
     height: 200px;
+}
+footer a {
+    color: #000000;
+    text-decoration: underline;
 }
 .link-mwn img {
     width: 400px;

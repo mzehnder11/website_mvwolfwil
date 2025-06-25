@@ -64,9 +64,9 @@ button:hover {
 .hero-content img{
     height: 70px;
 }
-.hero-content p {
+.paragraph {
     color: #ffffff;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 250;
     letter-spacing: 0.2pt;
     width: 500px;
@@ -93,14 +93,14 @@ button:hover {
     padding: 30px;
 }
 .news-colum h2 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 5;
     color: #000000;
     font-size: 1.7em;
     color: #4D4949;
 }
 .news-colum p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 5;
     color: #000000;
     font-size: 1.15em;
@@ -116,7 +116,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 200;
 }
 footer img {

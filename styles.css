@@ -52,7 +52,7 @@ button:hover {
     transition: all 0.2s ease-in-out;
 }
 .section {
-    padding: 0 11vw;
+    padding: 11vh 11vw;
 }
 .section-hero {
     height: calc(77vh - 70px);
@@ -73,8 +73,6 @@ button:hover {
     font-size: 1.15em;
 }
 .section-news {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     height: fit-content;
     background-color: #ffffff;
 }

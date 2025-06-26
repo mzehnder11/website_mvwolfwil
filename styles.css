@@ -1,0 +1,225 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(img/Meggele_Header_scs.jpg);
+}
+a {
+    color: white;
+}
+header {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #000000;
+    opacity: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    opacity: 100%;
+}
+nav img {
+    height: 50px;
+    opacity: 100% !important;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 100% !important;
+    font-weight: 250;
+}
+.menu {
+    height: fit-content;
+    display: none;
+}
+.menu img {
+    height: 35px;
+}
+main {
+    height: fit-content;
+}
+button {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4pt;
+    padding: 10px 40px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+    transition: all 0.2s ease-in-out;
+}
+.section {
+    padding: 11vh 11vw;
+}
+.section-hero {
+    height: calc(77vh - 70px);
+    padding-top: 20vh;
+}
+.hero-content {
+    gap: 50px;
+}
+.hero-content img{
+    height: 70px;
+}
+.paragraph {
+    color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 250;
+    letter-spacing: 0.2pt;
+    width: 500px;
+    font-size: 1.15em;
+}
+.section-news {
+    height: fit-content;
+    background-color: #ffffff;
+}
+.img-title {
+    height: 80px;
+}
+.news-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.news-colum {
+    width: 26%;
+    min-height: 500px;
+    background-color: #F5F5F7;
+    padding: 30px;
+}
+.news-colum h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 5;
+    color: #000000;
+    font-size: 1.7em;
+    color: #4D4949;
+}
+.news-colum p {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 5;
+    color: #000000;
+    font-size: 1.15em;
+    letter-spacing: 0.3pt;
+    color: #4D4949;
+}
+.news-colum a {
+    color: #4D4949;
+}
+
+footer {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 200;
+}
+footer img {
+    height: 200px;
+}
+footer a {
+    color: #000000;
+    text-decoration: underline;
+}
+.link-mwn img {
+    width: 400px;
+    height: auto;
+}
+.link-instagram img {
+    height: 100px;
+    opacity: 70%;
+}
+
+@media (max-width: 1300px) {
+    footer img {
+        height: 100px;
+    }
+    .link-instagram img {
+        height: 50px;
+    }
+    .link-mwn img {
+        width: 200px;
+    }
+    .news-colum {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 800px) {
+    footer {
+        display: block;
+        gap: 50px;
+    }
+    .news-colum p {
+        font-size: 0.8em;
+    }
+    .news-colum h2 {
+        font-size: 1.3em;
+    }
+}
+
+
+@media (max-width: 750px) {
+    nav {
+        justify-content: space-between;
+        width: calc(100vw - 40px);
+        padding: 0 20px;
+    }
+    .nav-inside {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .hero-content img {
+        height: 50px;
+    }
+    .section {
+        padding: 7vh 3vw;
+    }
+    .paragraph {
+        font-size: 0.8em;
+        max-width: 70vw;
+    }
+    button {
+        padding: 5px 20px;
+        font-size: 0.8em;
+    }
+    .img-title {
+        height: 50px;
+    }
+    .news-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .news-colum {
+        width: 75vw;
+        padding: 5px 20px;
+        min-height: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content img {
+        height: 35px;
+    }
+}

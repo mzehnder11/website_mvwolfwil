@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmeldung - Meggeliverein Wolfwil</title>
+    <link rel="icon" type="image/png" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img {
+            height: 50px;
+            padding: 0 20px;
+        }
+        header img:hover {
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 200;
+            font-size: 1.5em;
+        }
+        main {
+            height: calc(100vh - 70px);
+            width: 100vw !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div-menu {
+            width: 90vw;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../"><img src="../img/MV_Logo_Weiss.png" alt=""></a>
+        <img style="height: 40px;" onclick="closeMenu()" src="../img/close-icon¨.png" alt="">
+    </header>
+
+    <main>
+
+        <div class="div-menu">
+
+            <a href="../">Start</a>
+            <a href="../anmeldung/">Anmeldung</a>
+            <a href="../fotos/">Fotos</a>
+            <a href="../kontakt/">Kontakt</a>
+            <a href="../shop/">Shop</a>
+            <a href="../turnier/">Turnier</a>
+            <a href="../ueber_uns/">Über uns</a>
+
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </main>
+
+    <script>
+        function closeMenu() {
+            let prevPage = document.referrer;
+            if (!prevPage || prevPage === window.location.href) {
+                window.history.back();
+            } else {
+                window.location.href = prevPage;
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+.section-ueber-uns {
+    display: flex;
+    justify-content: space-between;
+}
+.div-about-left {
+    width: 49%;
+}
+.div-about-left img {
+    max-width: 100%;
+}
+.bild-jonas {
+    width: 50%;
+}
+
+@media (max-width: 1350px) {
+    .section-ueber-uns {
+        font-size: 0.9em;
+        display: block;
+    }
+    .div-about-right {
+        margin-top: 50px
+    };
+}
+
+@media (max-width: 1000px) {
+    .div-about-left {
+        width: 100%;
+    }
+    .div-about-right {
+        width: 100%;
+    }
+    .paragraph {
+        width: 100%;
+    }
+}
